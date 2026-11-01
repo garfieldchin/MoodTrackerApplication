@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- 通知栏小图标必须是单色剪影，这里用白色心形 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,20.68C12,20.68 3,14.89 3,8.78C3,5.57 5.57,3.32 8.46,3.32C10.07,3.32 11.2,4.45 12,5.41C12.81,4.45 13.93,3.32 15.54,3.32C18.43,3.32 21,5.57 21,8.78C21,14.89 12,20.68 12,20.68Z" />
+</vector>

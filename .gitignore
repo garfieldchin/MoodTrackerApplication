@@ -1,0 +1,32 @@
+# ===== 构建产物（必忽略）=====
+build/
+.gradle/
+.kotlin/
+**/build/
+*.apk
+*.aab
+
+# ===== 本机专属（含用户名路径，勿上传）=====
+local.properties
+
+# ===== 密钥 / 签名文件（双重保险）=====
+*.keystore
+*.jks
+
+# ===== IDE =====
+.idea/
+*.iml
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+
+# ===== 工作区内部数据（双重保险，本仓库根目录当前无此目录）=====
+.workbuddy/
+
+# ===== 说明 =====
+# 根目录的 icon_*.png / _icon_edit.py 是图标设计素材与脚本，作为项目资产保留进仓库。
+# 若想减小仓库体积，可在此追加排除设计稿，例如：
+#   icon_*_full.png
+#   icon_*_preview.png
+# 注意：app/src 下的实际图标资源（ic_launcher* 等）是代码资源，务必保留，不要排除。
