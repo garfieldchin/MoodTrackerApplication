@@ -11,7 +11,7 @@
 
 set -e
 
-REMOTE="https://github.com/garfieldchin/MOODTRACKER.git"
+REMOTE="https://github.com/garfieldchin/MoodTrackerApplication"
 COMMIT_MSG="Initial commit: 心锚 / MoodTracker 1.37"
 
 # 1. 初始化（若当前目录还不是 git 仓库）
