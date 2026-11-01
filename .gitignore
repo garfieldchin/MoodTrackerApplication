@@ -30,3 +30,5 @@ Thumbs.db
 #   icon_*_full.png
 #   icon_*_preview.png
 # 注意：app/src 下的实际图标资源（ic_launcher* 等）是代码资源，务必保留，不要排除。
+*.properties
+*.properties
